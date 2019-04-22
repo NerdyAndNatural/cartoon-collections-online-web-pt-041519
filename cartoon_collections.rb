@@ -9,10 +9,15 @@ dwarfs.each do |dwarfs|
 end
 
 def summon_captain_planet (elements)
-planeteer_calls = ["earth", "wind", "fire", "water", "heart"]
+elements = ["earth", "wind", "fire", "water", "heart"]
 
-
-
+new_elements = []
+  i = 0 
+  while i < elements.length 
+    nu_array << elements[i].capitalize + "!"
+    i += 1 
+  end 
+  new_elements
 end
 
 def long_planeteer_calls# code an argument here
