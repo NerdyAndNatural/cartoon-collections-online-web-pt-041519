@@ -19,8 +19,14 @@ new_elements = []
   new_elements
 end
 
-def long_planeteer_calls# code an argument here
-  
+def long_planeteer_calls (words)
+  i = 0 
+  if  words.any? {|i| i.length > 4}
+    return true
+  else 
+    return false
+  i = i + 1
+  end 
 end
 
 def find_the_cheese# code an argument here
