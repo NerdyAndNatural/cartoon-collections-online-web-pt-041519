@@ -1,7 +1,9 @@
-def roll_call_dwarves (array)
+def roll_call_dwarves (dwarves)
+
+
 count = 0
 while count <= brothers.length-1
-  puts "Stop hitting yourself #{brothers[count]}!"
+  puts "#{brothers[count]}!"
   count += 1
   
 end
