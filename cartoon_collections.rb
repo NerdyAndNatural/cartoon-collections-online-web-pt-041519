@@ -3,7 +3,7 @@ dwarfs = ["Doc", "Dopey", "Bashful", "Grumpy"]
 
 counter = 1
 dwarfs.each do |dwarfs|
-  puts "#{counter}#{dwarfs}"
+  puts "#{counter} #{dwarfs}"
   counter += 1
 end
 end
