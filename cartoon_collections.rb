@@ -6,6 +6,7 @@ dwarfs.each do |dwarfs|
   puts "#{counter}#{dwarfs}"
   counter += 1
 end
+end
 
 def summon_captain_planet# code an argument here
   # Your code here
