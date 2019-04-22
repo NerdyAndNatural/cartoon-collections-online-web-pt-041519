@@ -14,7 +14,7 @@ elements = ["earth", "wind", "fire", "water", "heart"]
 new_elements = []
   i = 0 
   while i < elements.length 
-    nu_array << elements[i].capitalize + "!"
+    new_elements << elements[i].capitalize + "!"
     i += 1 
   end 
   new_elements
