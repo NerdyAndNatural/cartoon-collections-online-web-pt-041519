@@ -1,9 +1,10 @@
 def roll_call_dwarves (dwarves)
 
+dwarves = ["Doc", "Dopey", "Bashful", "Grumpy"]
 
 count = 0
-while count <= brothers.length-1
-  puts "#{brothers[count]}!"
+while count <= dwarves.length-1
+  puts "#{[count]dwarves}"
   count += 1
   
 end
