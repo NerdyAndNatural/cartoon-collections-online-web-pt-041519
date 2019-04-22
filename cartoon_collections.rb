@@ -1,9 +1,9 @@
 def roll_call_dwarves(dwarfs)
-dwarfs = ["Dopey", "Bashful", "Grumpy"]
+dwarfs = ["Dopey", "Grumpy","Bashful"]
 
 counter = 1
 dwarfs.each do |dwarfs|
-  puts "#{counter} #{dwarfs}"
+  puts "/#{counter}. *#{dwarfs}/"
   counter += 1
 end
 end
