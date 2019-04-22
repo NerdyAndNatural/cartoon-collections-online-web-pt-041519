@@ -6,7 +6,6 @@ count = 0
 while count <= dwarves.length-1
   puts "#{[count]dwarves}"
   count += 1
-  
 end
 
 def summon_captain_planet# code an argument here
