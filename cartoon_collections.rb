@@ -1,9 +1,9 @@
-def roll_call_dwarves (dwarves)
+def roll_call_dwarves (names)
 
-dwarves = ["Doc", "Dopey", "Bashful", "Grumpy"]
+names = ["Doc", "Dopey", "Bashful", "Grumpy"]
 counter = 1
-dwarves.each do |dwarves|
-  puts "#{counter} #{dwarves}"
+names.each do |names|
+  puts "#{counter} #{names}"
 end
 
 def summon_captain_planet# code an argument here
