@@ -9,6 +9,8 @@ dwarfs.each do |dwarfs|
 end
 
 def summon_captain_planet (elements)
+planeteer_calls = ["earth", "wind", "fire", "water", "heart"]
+
 
 
 end
