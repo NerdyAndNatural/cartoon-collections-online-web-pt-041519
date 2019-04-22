@@ -1,4 +1,5 @@
 def roll_call_dwarves(names)
+names = ["Doc", "Dopey", "Bashful", "Grumpy"]
 
 counter = 1
 names.each do |names|
