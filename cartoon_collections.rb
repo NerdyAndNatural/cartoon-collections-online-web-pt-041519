@@ -4,6 +4,7 @@ names = ["Doc", "Dopey", "Bashful", "Grumpy"]
 counter = 1
 names.each do |names|
   puts "#{counter} #{names}"
+  counter += 1
 end
 
 def summon_captain_planet# code an argument here
