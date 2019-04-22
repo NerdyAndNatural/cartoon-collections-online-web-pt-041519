@@ -9,7 +9,7 @@ dwarfs.each do |dwarfs|
 end
 
 def summon_captain_planet (elements)
-elements = ["earth", "wind", "fire", "water", "heart"]
+elements = ["earth", "wind", "fire"]
 
 new_elements = []
   i = 0 
