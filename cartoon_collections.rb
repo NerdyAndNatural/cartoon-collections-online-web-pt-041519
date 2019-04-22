@@ -2,11 +2,7 @@ def roll_call_dwarves (dwarves)
 
 dwarves = ["Doc", "Dopey", "Bashful", "Grumpy"]
 
-count = 0
-while count <= dwarves.length-1
-  puts "#{[count]dwarves}"
-  count += 1
-end
+
 end
 
 def summon_captain_planet# code an argument here
